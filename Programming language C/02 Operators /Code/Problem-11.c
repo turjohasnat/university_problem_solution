@@ -11,6 +11,7 @@
 // 2)	0
 // 3)	1
 
+//C Solution:
 #include <stdio.h>
 #include <stdbool.h>
 
