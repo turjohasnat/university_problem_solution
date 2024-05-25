@@ -1,9 +1,3 @@
-//Task - Program that will defineaconstant using “CONST” and print the value.
-
-//Sample output:
-//The value of pi: 3.14
-//The value of golden ratio: 1.62
-
 //C Solution:
 #include<stdio.h>
 
