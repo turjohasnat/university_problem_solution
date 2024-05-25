@@ -1,15 +1,3 @@
-//Task -Program that will decide whether a number is even or odd.
-
-//Sample input:
-// 50
-// -77
-// 0
-
-//Sample output:
-// Even
-// Odd
-// Even
-
 //C Solution:
 #include <stdio.h>
 
