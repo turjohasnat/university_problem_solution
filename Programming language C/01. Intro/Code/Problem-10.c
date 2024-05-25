@@ -1,16 +1,3 @@
-//Task - Program that will declarea variable from each data type: longint, long longint, long double, short int. Then it will initialize them with values and print them.
-
-//Sample output:
-//The long int value:2147483647
-//The long longint value: 9223372036854775807
-//The long double value: 1.1E+4932
-//The short int value: 32767
-
-//The long int value: -2,147,483,648
-//The long longint value: -9223372036854775808
-//The long double value: 3.4E-4932
-//The short int value: -32768
-
 //C Solution: 
 #include <stdio.h>
 
