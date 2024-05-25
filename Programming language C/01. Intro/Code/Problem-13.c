@@ -1,9 +1,3 @@
-//Task - Program that will definea constant using “DEFINE” and print the value.
-
-//Sample output:
-//The value of HEIGHT: 200
-//The value of PI: 3.14
-
 //C Solution:
 #include <stdio.h>
 
