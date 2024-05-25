@@ -1,11 +1,3 @@
-//Task - Program that will declare a variable from each data type: double, boolean. Then it will initialize them with values and print them.
-
-//Sample output:
-//The double value: 3.140000e+00
-//The boolean value: 1
-//The double value: 1.618039
-//The boolean value: 0
-
 //C Solution:
 #include <stdio.h>
 #include <stdbool.h>
