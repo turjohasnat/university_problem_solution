@@ -1,13 +1,3 @@
-//Task - Program that will take an integer of length one from the terminal and then display the digit in English.
-
-//Sample input:
-// 9
-// 0
-
-//Sample output:
-// nine 
-// Zero
-
 //C Solution:
 #include<stdio.h>
 
