@@ -1,11 +1,3 @@
-// Task - Program that will use newline/tab and print the following segment:
-
-//Sample output:
-/* 
-Hello World.
-This is my first program.           C is fun. 
-*/
-
 //C Solution:
 #include <stdio.h>
     int main (){
