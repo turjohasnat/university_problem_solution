@@ -1,15 +1,3 @@
-//Task - Program that will declarea variable from each data type: unsigned int, unsigned long int, unsigned long longint, unsigned short int. Then it will initialize them with values and print them.
-
-//Sample output:
-//The unsigned int value: 4294967295
-//The unsigned long int value: 4294967295
-//The unsigned long longint value:18446744073709551615
-//The unsigned short int value: 65,535
-//The unsigned int value: 0
-//The unsigned long int value: 0
-//The unsigned long longint value: 0
-//The unsigned short int value: 0
-
 //C Solution:
 #include <stdio.h>
 
