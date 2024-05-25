@@ -1,15 +1,3 @@
-//Task - Program that will take two numbers X &Y as inputs and decide whetherX is greater than/less than/equal to Y.
-
-//Sample input (X,Y):
-// 5   -10
-// 5    10
-// 5     5
-
-//Sample output:
-// 5 is greater than -10
-// 5 is less than 10
-// 5 is equal to 5
-
 //C Solution:
 #include<stdio.h>
 
