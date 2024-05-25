@@ -1,13 +1,3 @@
-// Task - Program that will take three integer numbers from keyboard but assign only the first and last inputs to variables and skip any assignment of the middle one.
-
-/* Sample input:
-20     50     100
-*/
-
-/*Sample output:
-First Value = 20,  Last Value = 100
-*/
-
 //C Solution:
 #include <stdio.h>
 
