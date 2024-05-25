@@ -1,15 +1,3 @@
-//Task - Program that will read from the console a random positive nonzero number and determine if it is a power of 2.
-
-//Sample input:
-// 1
-// 512
-// 1022
-
-//Sample output:
-// Yes
-// Yes
-// No
-
 //C Solution:
 #include<stdio.h>
 #include<math.h>
