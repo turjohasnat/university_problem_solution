@@ -1,8 +1,3 @@
-// Task - Program that will print the following segment:
-
-//Sample output:
-// The question is - “How to write a \comment/ in C programming language?”
-
 //C Solution:
 #include <stdio.h>
     int main (){
