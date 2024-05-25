@@ -1,11 +1,3 @@
-// Task - Program that will receive the values of an integer, a floating point number, a character from the keyboard and print those values.
-
-/* Sample input:
-5
-3.141593
-A
-*/
-
 //C Solution:
 #include <stdio.h>
 
