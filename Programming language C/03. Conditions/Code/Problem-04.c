@@ -1,18 +1,3 @@
-//Task - Program that will check whether a triangle is valid or not, when the three angles (angle value should be such that, 0<value<180) of the triangle are entered through the keyboard. 
-// [Hint:A triangle is valid if the sum of all the three angles is equal to 180 degrees.]
-
-//Sample input:
-// 90      45      45
-// 30       110      40
-// 160     20        30
-// 0         1800
-
-//Sample output:
-// Yes
-// Yes
-// No
-// No
-
 //C Solution:
 #include <stdio.h>
 
