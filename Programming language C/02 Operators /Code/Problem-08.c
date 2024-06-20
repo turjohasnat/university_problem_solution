@@ -1,11 +1,3 @@
-//Task - Program that will take two numbers as inputs and print the maximum value. (Using conditional operator - ?)
-
-//Sample input (x, y):
-// 20,   100
-
-//Sample output:
-// Max: 100
-
 //C Solution:
 #include <stdio.h>
 
