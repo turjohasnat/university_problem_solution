@@ -1,12 +1,3 @@
-//Task - Program that will increment and decrement a number X by Y. (Use += and -= operators)
-
-//Sample input(X,Y):
-// X = 5 ,   Y = 10
-
-//Sample output:
-//Incremented Value:    10
-//Decremented Value:   -5
-
 //C Solution:
 #include <stdio.h>
 
