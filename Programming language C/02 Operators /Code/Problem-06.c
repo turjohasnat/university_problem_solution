@@ -1,12 +1,3 @@
-//Task - Program that will multiply and divide a number X by Y.
-
-//Sample input(X,Y):
-// X = 56,  Y = 10
-
-//Sample output:
-//Multiplication:  560
-//Division:   5
-
 //C Solution:
 #include <stdio.h>
 
