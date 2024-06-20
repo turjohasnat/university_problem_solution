@@ -1,16 +1,3 @@
-//Task - Program that will take two numbers X and Y as inputs, then calculate and print the values of their addition, subtraction, multiplication, division (quotient and reminder). 
-
-//Sample input (X,Y):
-// X = 5,  Y = 10.
-
-/* Sample output:
-Addition: 15
-Subtraction: -5
-Multiplication: 50
-Quotient : 0
-Reminder: 5
-*/
-
 //C Solution:
 #include <stdio.h>
 
