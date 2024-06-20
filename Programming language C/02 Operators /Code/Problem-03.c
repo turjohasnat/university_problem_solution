@@ -1,12 +1,3 @@
-//Task - Program that will take two numbers (a, b) as inputs and compute the value of the equation – (Without using math.h)
-//              X =  (3.31 * a2 + 2.01 * b3) / (7.16 * b2 + 2.01 * a3)
-
-//Sample input (a, b):
-//  a = 5, b = 10.5
-
-//Sample output:
-// X = 2.315475
-
 //C Solution:
 #include <stdio.h>
 
