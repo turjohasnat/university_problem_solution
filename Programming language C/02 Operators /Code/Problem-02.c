@@ -1,12 +1,3 @@
-//Task - Program that will calculate the circumference of a circle having radius r. 
-//        Area, A = 2 * Pi * r
-
-//Sample input (r)
-// 5, 10.5
-
-//Sample output
-//Area:  31.42, Area:  65.94
-
 //C Solution:
 #include <stdio.h>
 #include <math.h>
