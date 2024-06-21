@@ -1,16 +1,3 @@
-//Task - Program that will evaluate the following equations -  
-// X = a – b / 3 + c * 2 – 1
-// Y = a – ( b / ( 3 + c ) * 2) - 1 
-// Z = a – ( ( b / 3) + c * 2) - 1
-
-//Sample input (a, b, c):
-// a = 9, b = 12, c = 3
-
-//Sample output
-// X = 10
-// Y = 4
-// Z = -1
-
 //C Solution:
 #include <stdio.h>
 
