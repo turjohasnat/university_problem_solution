@@ -2,14 +2,14 @@
 #include <stdio.h>
 
 int main(){
-    int X, Y,x,y;
-    printf("Enter your X value:");
-    scanf("%d",&X);
-    printf("Enter your Y value:");
-    scanf("%d",&Y);
-    x=X*Y;
-    y=X/Y;
+    int x,y;
+    scanf("%d %d", &x, &y);
+
+    x *= y;
+    x /= y;
+
     printf("Multiplication:%d\n",x);
-    printf("Division:%d\n",y);
+    printf("Division:%d\n",x);
+    
     return 0;
 }
