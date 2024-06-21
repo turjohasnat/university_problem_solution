@@ -1,19 +1,3 @@
-//Task - Program that will categorize a single character that is entered at the terminal, whether it is an alphabet, a digit or a special character.
-
-// (Restriction:Without math.h)
-
-//Sample input:
-// z
-// A
-// 8
-// *
-
-//Sample output:
-// Alphabet 
-// Alphabet 
-// Digit
-// Special
-
 //C Solution:
 #include<stdio.h>
 
