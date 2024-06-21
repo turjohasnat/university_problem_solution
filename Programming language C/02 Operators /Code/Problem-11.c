@@ -1,16 +1,3 @@
-//Program that will take a, b & c as inputs and decide if the statements are True (1) of False (0)
-// 1.	(a+b)≤80 && b≥0
-// 2.	(a-b)==0 ||c!=0
-// 3.	a!=b ||(b<a)&&c>0
-
-//Sample input (a, b, c)
-// X = 10, Y = -10, Z = 0
-
-//Sample output
-// 1)	0
-// 2)	0
-// 3)	1
-
 //C Solution:
 #include <stdio.h>
 #include <stdbool.h>
