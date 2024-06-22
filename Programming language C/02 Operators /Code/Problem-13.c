@@ -1,14 +1,3 @@
-//Task - Program that will evaluate the equation 
-// 2 cos^2  x-√3  sinx+ sin x/2
-// ; where 1<= x <=180 [No checking needed]
-
-//Sample input (x):
-// X = 30, 120
-
-//Sample output:
-// 1.810066
-// 0.778151
-
 //C Solution:
 #include <stdio.h>
 #include <math.h>
