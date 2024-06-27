@@ -1,18 +1,3 @@
-//Task - Program that will evaluate simple expressions of the form-  
-// <number1><operato  r><number2>
-// ; where operators are (+, - , *, /)
-// And if the operator is “/”, then check if <number2> nonzero or not.
-
-//Sample input:
-// 100     *      55.5
-// 100     /      -5.5
-// 100    /        0
-
-//Sample output:
-// Multiplication:  5550
-// Division:   -18.181818
-// Division:    Zero as divisor is not valid!
-
 //C Solution:
 #include<stdio.h>
 
