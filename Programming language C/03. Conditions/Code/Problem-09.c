@@ -1,17 +1,19 @@
 //C Solution:
-#include <stdio.h>
+#include<stdio.h>
 
 int main(){
-    int a,b,c,x,y,z;
-    scanf("%d %d %d", &a, &b, &c);
+    char character;
+    scanf(" %c", &character);
 
-    x = a - b / 3 + c * 2 - 1;
-    y = a - ( b / ( 3 + c ) * 2) - 1;
-    z = a - ( ( b / 3) + c * 2) - 1;
+    if ((character >= 'a' && character<= 'z')||(character >= 'A' && character<='Z')){
+        printf("Alphabet\n");
+    }
+    else if (character>='0' && character<='9'){
+        printf("Digit\n");
+    }
+    else{
+        printf("Special\n");
+    }
     
-    printf("X:%d\n",x);
-    printf("Y:%d\n",y);
-    printf("Z:%d\n",z);
-
     return 0;
 }

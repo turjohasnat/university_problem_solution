@@ -1,26 +1,32 @@
 //C Solution:
 #include<stdio.h>
-#include<math.h>
 
 int main(){
-    float a,b,c,r1,r2;
-    scanf("%f %f %f",&a, &b, &c);
-
-    r1 = ( -b + sqrt( pow(b,2) - 4*a*c)) / (2*a); 
-    r2 = ( -b - sqrt( pow(b,2) - 4*a*c)) / (2*a); 
-
-    if (r1 <= 0 || r1 >= 0){
-        printf("%.2f\n", r1);
+    float first_number, last_number, result;
+    printf("Enter your two numbers:");
+    scanf("%f %f", &first_number, &last_number);
+    
+    char choice;
+    printf("Enter your choice (1,2,3,4):");
+    scanf(" %c", &choice);
+    
+    if (choice == '1'){
+        result = first_number + last_number;
+        printf("Addition: %.2f", result);
     }
-    else{
-        printf("Imaginary\n");
+    else if (choice == '2'){
+        result = first_number - last_number;
+        printf("Subtraction: %.2f", result);
     }
-    if (r2 <= 0 || r2 >= 0){
-        printf("%.2f\n", r2);
+    else if (choice == '3'){
+        result = first_number * last_number;
+        printf("Multiplication: %.2f", result);
     }
-    else{
-        printf("Imaginary\n");
+    else if (choice == '4'){
+        result = first_number / last_number;
+        printf("Quotient: %.2f", result);
     }
     
     return 0;
+
 }

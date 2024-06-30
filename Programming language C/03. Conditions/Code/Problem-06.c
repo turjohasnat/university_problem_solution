@@ -1,15 +1,25 @@
 //C Solution:
-#include <stdio.h>
+#include<stdio.h>
+#include<math.h>
 
 int main(){
-    int x,y;
-    scanf("%d %d", &x, &y);
+    int num;
+    scanf("%d",&num);
 
-    x *= y;
-    x /= y;
+    if (num == 0){
+        printf("Zero is not a valid input\n");
+    }
+    else if (num < 0){
+        printf("Negative input is not valid\n");
+    }
+    else{
+        if (num > 0 &&  (num & (num-1)) == 0){
+        printf ("Yes\n");
+        }
+        else{
+            printf("No\n");
+        }
+    }
 
-    printf("Multiplication:%d\n",x);
-    printf("Division:%d\n",x);
-    
     return 0;
 }
