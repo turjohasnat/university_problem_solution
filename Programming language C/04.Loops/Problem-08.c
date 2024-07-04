@@ -5,10 +5,9 @@ int main(){
     scanf("%d", &num);
     int r_num = 0;
     while ( num != 0 ){
-        r_num = r_num * 10 + num % 10;
-        num = num/10; 
+        r_num = r_num*10 + num % 10;
+        num = num / 10;
     }
-    printf("%d\n", r_num);
+    printf("%d", r_num);
     return 0;
-
 }
