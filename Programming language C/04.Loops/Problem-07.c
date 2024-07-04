@@ -1,12 +1,11 @@
 //C Solution:
 #include<stdio.h>
 int main(){
-    for ( int i = 1; ; i++ ){
-        char input;
-        scanf(" %c", &input);
-        if ( input == 'A') break;
-        printf("Input %d: %c\n", i, input);
+    for ( int i = 1; ; i++){
+        char ch;
+        scanf(" %c", &ch);
+        if ( ch == 'A') break;
+        printf("Input %d: %c\n", i, ch);
     }
-    
     return 0;
 }
