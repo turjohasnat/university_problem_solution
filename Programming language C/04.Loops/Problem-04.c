@@ -1,16 +1,17 @@
+//C Solution:
 #include<stdio.h>
 
 int main(){
-    int i, n;
+    int n;
     scanf("%d", &n);
 
-    float num, sum = 0.0, avg;
-    for( i = 1; i <= n; i++ ){
+    float sum = 0.0, num, avg;
+    for ( int i = 1; i <= n; i++ ){
         scanf("%f", &num);
         sum += num;
     }
-    
     avg = sum / n;
-    printf("%f\n", avg);
+    printf("AVG of %d inputs: %f\n", n, avg);
+
     return 0;
 }
