@@ -2,23 +2,21 @@
 #include<stdio.h>
 int main(){
     int n, r;
-    printf("Enter your N & R value:");
     scanf("%d %d", &n, &r);
+    int numerator = 1, numerator_r = 1, numerator_nr = 1;
 
-    int numerator = 1, denominator_r = 1, denominator_nr = 1;
-    for (int i = 1; i <= n; i++) {
+    for ( int i = n; i >= 1; i-- ){
         numerator *= i; 
     }
-
-    for (int i = 1; i <= r; i++) {
-        denominator_r *= i; 
+    for ( int i = r; i >= 1; i-- ){
+        numerator_r *= i;
     }
-
-    for (int i = 1; i <= (n - r); i++) {
-        denominator_nr *= i;
+    for ( int i = (n-r); i >= 1; i--){
+        numerator_nr *= i; 
     }
-    int result = numerator / (denominator_r * denominator_nr);
-    printf("%d\n", result);
+    
+    int result = numerator / (numerator_r*numerator_nr);
+    printf("%d", result);
 
     return 0;
 }
