@@ -6,8 +6,8 @@
 
     int num = 0,sum = 0;
     for (int i = 1; i <= n; i++) {
-    num =num * 10 + i;
-    sum += num;
+        num =num * 10 + i;
+        sum += num;
     }
 
     printf("%d\n", sum);
