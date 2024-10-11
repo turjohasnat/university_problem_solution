@@ -33,7 +33,7 @@ void InputMatrix( int a[3][5] ){
 void ShowMatrix( int a[3][5] ){
     for( int i = 0; i < 3; i++ ){
         for( int j = 0; j < 5; j++ ){
-            printf("%d ", a[i][j]);
+            printf("%d\t", a[i][j]);
         }
         printf("\n");
     }
@@ -42,7 +42,7 @@ void ShowMatrix( int a[3][5] ){
 void ScalarMultiply( int a[3][5], int scalar ){
     for( int i = 0; i < 3; i++ ){
         for( int j = 0; j < 5; j++ ){
-            printf("%d ", a[i][j] * scalar );
+            printf("%d\t", a[i][j] * scalar );
         }
         printf("\n");
     }
