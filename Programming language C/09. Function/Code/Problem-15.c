@@ -1,10 +1,10 @@
 //C Solution:
 #include<stdio.h>
 
-int find_substr( int a[], int b[] );
+int find_substr( char a[], char b[] );
 
 int main(){
-    int a[100], b[100];
+    char a[100], b[100];
     scanf("%s %s", a, b );
 
     int result = find_substr( a, b );
@@ -12,7 +12,7 @@ int main(){
     return 0;
 }
 
-int find_substr( int a[], int b[] ){
+int find_substr( char a[], char b[] ){
     int Alen = 0;
     while( Alen[a] != 0 ){
         Alen++;
