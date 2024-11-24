@@ -1,3 +1,4 @@
+//Java Solution:
 public class DataTypesExamples{
     public static void main( String[] args){
         int age = 25;
