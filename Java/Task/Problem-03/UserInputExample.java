@@ -1,3 +1,4 @@
+//Java Solution:
 import java.util.Scanner;
 
 public class UserInputExample {
