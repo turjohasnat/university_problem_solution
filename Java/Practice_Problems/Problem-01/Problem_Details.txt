@@ -1,2 +1,0 @@
-Problem Name - Write a program that displays Welcome to Java, Welcome to Computer Science, and
-Programming is fun at three different lines.

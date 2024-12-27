@@ -1,2 +1,0 @@
-Problem Name - Change the program in the previous problem (05) in such a way so that the user gives the value of the radius of the
-circle. Now compute the perimeter and area.
